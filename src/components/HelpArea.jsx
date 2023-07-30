@@ -1,6 +1,8 @@
 import HelpBox from './HelpBox';
 import './HelpArea.css';
 
+//aqui
+
 const HELP_ITEMS = [
   {
     id: 'h1',
