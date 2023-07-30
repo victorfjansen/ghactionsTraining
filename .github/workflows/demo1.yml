@@ -3,7 +3,13 @@ on:
   pull_request:
     types:
       - opened
+  push:
+    branches:
+      - main 
+    paths-ignore:
+      - '.github/workflows/*.yml'
   workflow_dispatch:
+  
 
 jobs:
   deploy:
